@@ -7,8 +7,14 @@ export default {
   name: "App",
   data() {
     return {
-      value: "World"
+      value: "World - Development"
     };
+  },
+  mounted () {
+    // eslint-disable-next-line
+    let hi
+    // eslint-disable-next-line
+    console.log(hi)
   }
 };
 </script>
